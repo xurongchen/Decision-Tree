@@ -5,7 +5,7 @@ double InformationEntropy::CalculateEntropy(double *ProbabilityList, int ListLen
 	double Entropy = 0;
 	for (int i = 0; i < ListLength; i++) {
 		double Probability = *(ProbabilityList + i);
-		Entropy -= Probability * log(Probability);
+		Entropy -= Probability * log2(Probability);
 	}
 	return Entropy;
 };
