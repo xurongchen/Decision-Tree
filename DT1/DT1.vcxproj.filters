@@ -24,12 +24,21 @@
     <ClCompile Include="Interval.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DecisionTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="InformationEntropy.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Interval.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
