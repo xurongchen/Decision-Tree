@@ -110,6 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Data.cpp" />
     <ClCompile Include="DecisionTree.cpp" />
     <ClCompile Include="dt.cpp" />
     <ClCompile Include="InformationEntropy.cpp" />
